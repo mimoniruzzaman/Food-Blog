@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.wrapper {
+  max-width: 85%;
+  margin: auto;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.3rem;
+  align-items: center;
+}
+span {
+  color: #3c7d36;
+}
+.logo {
+  font-size: 2.4rem;
+}
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+/* Hero Section */
+.hero-section {
+  background-color: #3c7d36;
+  margin-top: 3.3rem;
+}
+.hero-content {
+  background-color: white;
+  width: 45rem;
+  position: absolute;
+  padding: 2rem;
+}
+.hero-content p {
+  font-size: 1.8rem;
+}
+.hero-content h2 {
+  font-size: 3rem;
+}
+.hero-content {
+  position: relative;
+  left: 65rem;
+  top: -33rem;
+}
+
+/* Food Section */
+.food-section {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 5rem;
+}
+.food-section-one {
+  display: grid;
+  grid-gap: 3rem;
+}
+.food {
+  padding: 2rem;
+  background-color: #34722f26;
+}
+.food p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.food h2 {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+
+.food-section-two {
+  display: grid;
+  grid-gap: 3rem;
+}
+.food-two {
+  padding: 2rem;
+  background-color: #34722f26;
+}
+.food-two p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.food-two h2 {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+
+.recent h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.recent-post {
+  display: flex;
+  padding-bottom: 2rem;
+  gap: 3rem;
+}
+.recent-content p {
+  font-size: 1.5rem;
+}
+.recent-content a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.popular-post {
+  margin-top: 10rem;
+}
+.popular-content h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer Section */
+.footer-grid {
+  background-color: #3c7d36;
+  padding: 7rem 0;
+  margin-top: 10rem;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.footer-blog h2 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.footer-blog p {
+  font-size: 1.4rem;
+  color: white;
+  max-width: 30rem;
+  line-height: 2.2rem;
+}
+
+.social {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-contact h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.footer-contact p {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2.2rem;
+}
+.footer-policy h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.footer-policy p {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2.2rem;
+}
+.footer-social h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.last-section {
+  text-align: center;
+  padding: 1rem;
+  background-color: #131313;
+}
+.last-section p {
+  font-size: 1.2rem;
+  color: white;
+}
